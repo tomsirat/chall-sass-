@@ -1,0 +1,22 @@
+footer {
+    background-color: $color-footer;
+    color: $color-white;
+
+    .container {
+        padding: 3rem 3rem 0 3rem;
+        .btn {
+            background-color: transparent;
+            color: $color-white;
+            border: 1px solid white;
+        }
+        
+    }
+
+    li {
+        list-style: none;
+        i {
+            padding-right: 1rem;
+        }
+    }
+    
+}

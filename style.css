@@ -36,6 +36,46 @@ header {
     header .down i {
       color: #fff; }
 
+.grp-article {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto; }
+
+.article {
+  display: flex;
+  flex-direction: column; }
+
+.lign-article {
+  position: relative;
+  z-index: 0; }
+
+.line {
+  position: absolute;
+  border: 1px solid;
+  color: #fff;
+  transform: rotate(-54deg);
+  transform-origin: 0%;
+  width: 250px;
+  z-index: 1;
+  top: 100%; }
+
+.article {
+  width: 16rem; }
+
+footer {
+  background-color: #0f3e57;
+  color: #fff; }
+  footer .container {
+    padding: 3rem 3rem 0 3rem; }
+    footer .container .btn {
+      background-color: transparent;
+      color: #fff;
+      border: 1px solid white; }
+  footer li {
+    list-style: none; }
+    footer li i {
+      padding-right: 1rem; }
+
 a:hover {
   text-decoration: none; }
 

@@ -1,0 +1,34 @@
+.grp-article {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.lign-article{
+    position: relative;
+    z-index: 0;
+}
+        .line  {
+            position: absolute;
+            border: 1px solid;
+            color: $color-white;
+            transform: rotate(-54deg);
+            transform-origin: 0% ;
+            width: 250px;
+            z-index:1;
+            top: 100%;
+            
+            
+            
+        }
+
+        .article {
+            width: 16rem;
+        }
