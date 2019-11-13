@@ -39,11 +39,28 @@ header {
 .grp-article {
   display: flex;
   flex-wrap: wrap;
-  margin: auto; }
+  margin: auto;
+  padding-bottom: 5rem;
+  max-width: 1023px; }
 
 .article {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  width: 9.5rem;
+  margin: .4rem;
+  border: 1px solid #cac8c8;
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.75); }
+  .article .buy {
+    color: #a28f61; }
+  .article .sale {
+    color: #ffcf00; }
+  .article .out {
+    color: #cac8c8; }
+
+main h3 {
+  padding: 2rem 0; }
 
 .lign-article {
   position: relative;
@@ -59,8 +76,15 @@ header {
   z-index: 1;
   top: 100%; }
 
-.article {
-  width: 16rem; }
+.card p {
+  padding-bottom: 2rem; }
+
+.product {
+  position: initial;
+  margin: 5rem; }
+
+.caca {
+  height: 0vh; }
 
 footer {
   background-color: #0f3e57;
@@ -71,12 +95,16 @@ footer {
       background-color: transparent;
       color: #fff;
       border: 1px solid white; }
+    footer .container h4 {
+      padding-bottom: 1rem; }
   footer li {
+    color: #cac8c8;
     list-style: none; }
     footer li i {
       padding-right: 1rem; }
 
 a:hover {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #cac8c8; }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,14 @@
+@mixin petitranch {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    padding-bottom: 5rem;
+    max-width: 1023px;
+    
+}
+
+@mixin box-shadow {
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+}

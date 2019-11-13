@@ -1,15 +1,31 @@
+@import 'var';
+
 .grp-article {
-    display: flex;
-    flex-wrap: wrap;
-    margin: auto;
+    @include petitranch;
 }
 
 .article {
     display: flex;
     flex-direction: column;
+    width: 9.5rem;
+    margin: .4rem;
+    border: 1px solid $color-grey;
+    @include box-shadow;
+    .buy{
+        color: $color-buy;
+    }
+    .sale{
+        color: $color-on-sale;
+    }
+    .out{
+        color: $color-sold-out;
+    }
+    
 }
 
-
+main h3{
+    padding: 2rem 0;
+}
 
 .lign-article{
     position: relative;
@@ -25,10 +41,19 @@
             z-index:1;
             top: 100%;
             
-            
-            
         }
 
-        .article {
-            width: 16rem;
-        }
+.card p{
+    padding-bottom: 2rem;
+}
+
+.product{
+    position: initial;
+    margin: 5rem;
+    
+}
+.caca{
+    height: 0vh;
+    
+}
+

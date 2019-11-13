@@ -9,13 +9,17 @@ footer {
             color: $color-white;
             border: 1px solid white;
         }
-        
+        h4{
+            padding-bottom: 1rem;
+        }
     }
 
     li {
+        color: $color-grey;
         list-style: none;
         i {
             padding-right: 1rem;
+            
         }
     }
     
